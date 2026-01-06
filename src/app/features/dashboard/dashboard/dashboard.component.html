@@ -1,0 +1,305 @@
+<div class="bg-yellow-100 min-h-screen p-6">
+
+  <!-- TOP GRID: STATS + TASKS -->
+  <div class="grid grid-cols-12 gap-6 mb-6">
+
+    <!-- STATS -->
+    <div class="col-span-12 lg:col-span-9 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+      <!-- Card -->
+      <div class="bg-white rounded-xl p-5 shadow flex justify-between">
+        <div>
+          <p class="text-sm text-gray-600">Today's Queries</p>
+          <h2 class="text-3xl font-bold">7</h2>
+          <div class="flex justify-between text-sm mt-3">
+            <span class="text-gray-500 cursor-pointer">View All</span>
+            <span class="text-blue-600 cursor-pointer">Add New</span>
+          </div>
+        </div>
+        <div class="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center text-white">📄</div>
+      </div>
+
+      <!-- Reusable Gradient Cards -->
+      <div class="bg-gradient-to-r from-yellow-100 to-yellow-300 rounded-xl p-5 shadow">
+        <p class="text-sm">Total Queries</p>
+        <h2 class="text-3xl font-bold">1327</h2>
+        <span class="text-sm text-gray-600">View All</span>
+      </div>
+
+      <div class="bg-gradient-to-r from-orange-100 to-orange-300 rounded-xl p-5 shadow">
+        <p class="text-sm">Proposal Sent</p>
+        <h2 class="text-3xl font-bold">59</h2>
+        <span class="text-xs bg-orange-200 px-2 py-1 rounded">Proposal Sent</span>
+      </div>
+
+      <div class="bg-gradient-to-r from-red-100 to-red-300 rounded-xl p-5 shadow">
+        <p class="text-sm">Hot Lead</p>
+        <h2 class="text-3xl font-bold">27</h2>
+        <span class="text-xs bg-red-200 px-2 py-1 rounded">Hot Lead</span>
+      </div>
+
+      <div class="bg-gradient-to-r from-purple-100 to-purple-300 rounded-xl p-5 shadow">
+        <p class="text-sm">Proposal Confirmed</p>
+        <h2 class="text-3xl font-bold">23</h2>
+      </div>
+
+      <div class="bg-gradient-to-r from-red-200 to-red-400 rounded-xl p-5 shadow">
+        <p class="text-sm">Cancel</p>
+        <h2 class="text-3xl font-bold">24</h2>
+      </div>
+
+      <div class="bg-gradient-to-r from-orange-200 to-orange-400 rounded-xl p-5 shadow">
+        <p class="text-sm">Follow Up</p>
+        <h2 class="text-3xl font-bold">23</h2>
+      </div>
+
+      <div class="bg-gradient-to-r from-green-100 to-green-300 rounded-xl p-5 shadow">
+        <p class="text-sm">Confirmed</p>
+        <h2 class="text-3xl font-bold">653</h2>
+      </div>
+    </div>
+
+    <!-- TASK / FOLLOW UPS -->
+    <div class="col-span-12 lg:col-span-3 bg-white rounded-xl shadow p-4 h-[350px] overflow-y-auto">
+      <h3 class="font-semibold mb-4">Task / Followup's</h3>
+
+      <div class="space-y-4">
+        <div class="flex gap-3">
+          <div class="text-center text-sm">
+            <p>Jan</p>
+            <p class="font-bold">07</p>
+          </div>
+          <div class="border-l-2 border-blue-500 pl-3">
+            <p class="font-semibold">📞 Call after two days</p>
+            <p class="text-sm text-gray-500">01:00 PM - Christinal maam</p>
+          </div>
+        </div>
+
+        <div class="flex gap-3">
+          <div class="text-center text-sm">
+            <p>Jan</p>
+            <p class="font-bold">05</p>
+          </div>
+          <div class="border-l-2 border-blue-500 pl-3">
+            <p class="font-semibold">📞 Call after two days</p>
+            <p class="text-sm text-gray-500">01:00 PM - Sharath Ji</p>
+            <span class="text-xs text-red-600">TODAY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM GRID -->
+  <div class="grid grid-cols-12 gap-6">
+
+    <!-- BAR CHART PLACEHOLDER -->
+    <div class="col-span-12 lg:col-span-6 bg-white rounded-xl shadow p-4 h-[350px]">
+      <h3 class="font-semibold mb-4">
+        This Year Queries / <span class="text-green-500">Confirmed</span>
+      </h3>
+      <div class="h-full flex items-center justify-center text-gray-400">
+        Bar Chart Placeholder
+      </div>
+    </div>
+
+    <!-- DONUT CHART PLACEHOLDER -->
+    <div class="col-span-12 lg:col-span-3 bg-white rounded-xl shadow p-4 h-[350px]">
+      <h3 class="font-semibold mb-4">Queries By Status</h3>
+      <div class="h-full flex items-center justify-center text-gray-400">
+        Donut Chart Placeholder
+      </div>
+    </div>
+
+    <!-- PAYMENT TABLE -->
+    <div class="col-span-12 lg:col-span-3 bg-white rounded-xl shadow p-4 h-[350px] overflow-auto">
+      <h3 class="font-semibold mb-4">
+        Payment Collection <span class="text-red-600">(383299 INR)</span>
+      </h3>
+
+      <table class="w-full text-sm">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="text-left p-2">Query ID</th>
+            <th class="text-left p-2">Amount</th>
+            <th class="text-left p-2">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="p-2">#100031<br><span class="text-gray-500">Ratan Kumar Srivastava</span></td>
+            <td class="p-2">23600 INR</td>
+            <td class="p-2">
+              <span class="bg-red-600 text-white text-xs px-2 py-1 rounded">Overdue</span>
+            </td>
+          </tr>
+
+          <tr class="border-b">
+            <td class="p-2">#100025<br><span class="text-gray-500">Rattan Kumar</span></td>
+            <td class="p-2">7350 INR</td>
+            <td class="p-2">
+              <span class="bg-red-600 text-white text-xs px-2 py-1 rounded">Overdue</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== LOWER DASHBOARD SECTION ===================== -->
+  <div class="grid grid-cols-12 gap-6 mt-6">
+
+    <!-- Today Tours -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4">
+      <h3 class="font-semibold mb-4">Today Tours (3)</h3>
+
+      <div class="space-y-3">
+        <div class="flex justify-between items-center border-b pb-2">
+          <div>
+            <p class="font-medium">Aatapi trip</p>
+            <p class="text-sm text-gray-500">👤 Mr. Siddharth Pandya</p>
+          </div>
+          <span>🚗</span>
+        </div>
+
+        <div class="flex justify-between items-center border-b pb-2">
+          <div>
+            <p class="font-medium">DELHI BOMBAY FLIGHT</p>
+            <p class="text-sm text-gray-500">👤 Mr. Abhay Kumar</p>
+          </div>
+          <span>🚗</span>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <div>
+            <p class="font-medium">flight</p>
+            <p class="text-sm text-gray-500">👤 Mr. Ratan Kumar Srivastava</p>
+          </div>
+          <span>🚗</span>
+        </div>
+      </div>
+
+      <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
+        View All Tours
+      </button>
+    </div>
+
+    <!-- Latest Query Notes -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4 h-[350px] overflow-y-auto">
+      <h3 class="font-semibold mb-4">Latest Query Notes</h3>
+
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="relative">
+            <span class="w-3 h-3 bg-orange-400 rounded-full absolute top-1"></span>
+            <span class="block h-full border-l ml-1"></span>
+          </div>
+          <div>
+            <p class="font-semibold">Travbizz Travel IT Solutions</p>
+            <p class="text-sm text-gray-600">lollipop</p>
+            <p class="text-xs text-gray-400">30/12/2025 10:22 PM</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="relative">
+            <span class="w-3 h-3 bg-orange-400 rounded-full absolute top-1"></span>
+            <span class="block h-full border-l ml-1"></span>
+          </div>
+          <div>
+            <p class="font-semibold">Travbizz Travel IT Solutions</p>
+            <p class="text-sm text-gray-600">She want sedan car for airport pickup</p>
+            <p class="text-xs text-gray-400">30/12/2025 12:14 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Revenue Growth -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4">
+      <h3 class="font-semibold mb-4">Revenue Growth</h3>
+      <div class="h-[280px] flex items-center justify-center text-gray-400">
+        Revenue Chart Placeholder
+      </div>
+    </div>
+
+    <!-- Sales Reps -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4 h-[350px] overflow-auto">
+      <h3 class="font-semibold mb-4">Sales Reps.</h3>
+
+      <table class="w-full text-sm">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="p-2 text-left">Name</th>
+            <th class="p-2 text-left">Assigned</th>
+            <th class="p-2 text-left">Confirmed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="p-2 font-medium">Travbizz Travel IT Solutions</td>
+            <td class="p-2">911</td>
+            <td class="p-2">489</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Mohd Dillnawaj</td>
+            <td class="p-2">240</td>
+            <td class="p-2">107</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Mohd Imran</td>
+            <td class="p-2">88</td>
+            <td class="p-2">35</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Top Lead Source -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4">
+      <h3 class="font-semibold mb-4">Top Lead Source</h3>
+      <div class="h-[280px] flex items-center justify-center text-gray-400">
+        Horizontal Bar Chart Placeholder
+      </div>
+    </div>
+
+    <!-- Top Destinations -->
+    <div class="col-span-12 lg:col-span-4 bg-white rounded-xl shadow p-4 h-[350px] overflow-auto">
+      <h3 class="font-semibold mb-4">Top Destinations</h3>
+
+      <table class="w-full text-sm">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="p-2 text-left">Name</th>
+            <th class="p-2 text-left">Queries</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="p-2">Dubai</td>
+            <td class="p-2">535</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Kashmir</td>
+            <td class="p-2">210</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Mumbai</td>
+            <td class="p-2">87</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Manali</td>
+            <td class="p-2">64</td>
+          </tr>
+          <tr class="border-b">
+            <td class="p-2">Kerala</td>
+            <td class="p-2">48</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>

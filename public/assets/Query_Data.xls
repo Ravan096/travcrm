@@ -1,0 +1,1738 @@
+
+ <table width="100%" border="1" cellspacing="0" cellpadding="5">
+  <tr>
+  <td><strong>#ID</strong></td>
+  <td><strong>Client</strong></td>
+  <td><strong>Email</strong></td>
+  <td><strong>Mobile</strong></td> 
+  <td><strong>Destination</strong></td>
+  <td><strong>Start Date </strong></td>
+  <td><strong>End Date </strong></td>
+  <td><strong>Travel Month</strong></td>
+  <td><strong>Service</strong></td>
+  <td><strong>Adult</strong></td>
+  <td><strong>Child</strong></td>
+  <td><strong>Infant</strong></td>
+  <td><strong>Status</strong></td>
+  <td><strong>Assign To </strong></td>
+  <td><strong>Lead Source </strong></td>
+  </tr>
+
+  <tr>
+    <td>101503</td> 
+    <td>Mr. anurag </td>
+    <td>international@choiceholidaysindia.com</td>
+    <td></td> 
+    <td>Bali</td>
+    <td>20/03/2026</td>
+    <td>26/03/2026</td>
+    <td>March</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Liju NMS</td> 
+    <td>Others</td>  
+  </tr>
+  <tr>
+    <td>101504</td> 
+    <td>Mr. Ratan Kumar Srivastava         </td>
+    <td>ratan@travbizz.com</td>
+    <td>9521508406</td> 
+    <td>Dubai</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101506</td> 
+    <td>Mr. Road link tourism </td>
+    <td>info@roadlinktourism.in</td>
+    <td>9647203313</td> 
+    <td>Darjeeling</td>
+    <td>23/12/2025</td>
+    <td>27/12/2025</td>
+    <td>December</td>
+    <td>Hotel + Transport</td> 
+    <td>15</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#af4b9e;color:#fff;">Proposal Con..</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101507</td> 
+    <td>Mr. Vijay Sir </td>
+    <td>vijaykumarch2022@gmail.com</td>
+    <td>8520880731</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#ff7b00;color:#fff;">Follow Up</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Agent</td>  
+  </tr>
+  <tr>
+    <td>101508</td> 
+    <td>Mr. Suhel </td>
+    <td>suhelmadkaikar0808@gmail.com</td>
+    <td>7391990930</td> 
+    <td>Dubai</td>
+    <td>20/12/2025</td>
+    <td>25/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101509</td> 
+    <td>Mr. Suhel </td>
+    <td>suhelmadkaikar0808@gmail.com</td>
+    <td>7391990930</td> 
+    <td>Kashmir</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>20</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101510</td> 
+    <td>Mr. THC Hotels </td>
+    <td>Doc.goglobe@gmail.com</td>
+    <td>9988719998</td> 
+    <td>Dubai</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101511</td> 
+    <td>Mr. Aashi </td>
+    <td></td>
+    <td>9971507797</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101512</td> 
+    <td>Mr. sekhar </td>
+    <td>somashekharpolice@gmail.com</td>
+    <td>636147029</td> 
+    <td>Manali</td>
+    <td>15/12/2025</td>
+    <td>17/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>1</td> 
+    <td><span class="badge" style="background-color:#e45555;color:#fff;">Hot Lead</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Instagram</td>  
+  </tr>
+  <tr>
+    <td>101516</td> 
+    <td>Mr. Sangit ji </td>
+    <td>travelsjoys@gmail.com</td>
+    <td>8329662712</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>3</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Telephone</td>  
+  </tr>
+  <tr>
+    <td>101517</td> 
+    <td>Mr. cherry </td>
+    <td></td>
+    <td>9311342612</td> 
+    <td>Dubai</td>
+    <td>11/12/2025</td>
+    <td>13/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101518</td> 
+    <td>Mr. Nitin </td>
+    <td>info@fodholidays.com</td>
+    <td>9779464405</td> 
+    <td>Dubai</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101519</td> 
+    <td>Mr. Sravan </td>
+    <td>saikrishnatours@gmail.com</td>
+    <td>7207647251</td> 
+    <td>Dubai</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101524</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>Goa</td>
+    <td>01/01/2026</td>
+    <td>03/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101525</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>Goa</td>
+    <td>01/01/2026</td>
+    <td>01/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101526</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>Goa</td>
+    <td>11/12/2025</td>
+    <td>13/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101527</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>Goa</td>
+    <td>14/01/2026</td>
+    <td>16/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101529</td> 
+    <td>Mr. ashwin </td>
+    <td>fascinatingandaman@gmail.com</td>
+    <td>9476050210</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#af4b9e;color:#fff;">Proposal Con..</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101530</td> 
+    <td>Mr. Aqueel Travizz </td>
+    <td>aqueel@travbizz.com</td>
+    <td>9089078908</td> 
+    <td>Dubai</td>
+    <td>12/12/2025</td>
+    <td>14/12/2025</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101531</td> 
+    <td>Mr. Sharid </td>
+    <td>apnaflight@gmail.com</td>
+    <td>9955071616</td> 
+    <td>Bagdogra</td>
+    <td>15/01/2026</td>
+    <td>15/01/2026</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#af4b9e;color:#fff;">Proposal Con..</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101532</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>Udaipur</td>
+    <td>13/12/2025</td>
+    <td>13/12/2025</td>
+    <td>December</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Hitesh raykesh</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101533</td> 
+    <td>Mr. ABHAY KUMAR KUMAR KUMAR</td>
+    <td>anandtctourandtravel@gmail.com</td>
+    <td>9311178793</td> 
+    <td>FRANCE</td>
+    <td>11/01/2026</td>
+    <td>26/01/2026</td>
+    <td>January</td>
+    <td>Visa only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101535</td> 
+    <td> Mohd Dillnawaj </td>
+    <td>mohddillnawaj@gmail.com</td>
+    <td>8505876429</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>01/01/2026</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>B2B Agent Travbizz</td>  
+  </tr>
+  <tr>
+    <td>101536</td> 
+    <td>Mr. Sachin Farde </td>
+    <td>sachinfarde1@gmail.com</td>
+    <td>9819428422</td> 
+    <td>Dubai</td>
+    <td>25/12/2025</td>
+    <td>30/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101537</td> 
+    <td>Mr. Rajesh </td>
+    <td>rajesh@globestravel.com</td>
+    <td>9846060083</td> 
+    <td>Kashmir</td>
+    <td>12/12/2025</td>
+    <td>15/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#ff7b00;color:#fff;">Follow Up</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Hello Travel</td>  
+  </tr>
+  <tr>
+    <td>101538</td> 
+    <td>Mr. Prabal </td>
+    <td>prabal.shetty@letsgotripping.com</td>
+    <td>8431275318</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101539</td> 
+    <td>Mr. Sharad </td>
+    <td>goearthtours@gmail.com</td>
+    <td>9562426869</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>Agent</td>  
+  </tr>
+  <tr>
+    <td>101542</td> 
+    <td>Mr. ABIN LAL K N </td>
+    <td></td>
+    <td>9446670756</td> 
+    <td>Manali</td>
+    <td>15/01/2026</td>
+    <td>18/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#000000;color:#fff;">Any Update</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101543</td> 
+    <td>Mr. Ratan Kumar Srivastava         </td>
+    <td>ratan@travbizz.com</td>
+    <td>9521508406</td> 
+    <td>Kashmir</td>
+    <td>15/12/2025</td>
+    <td>17/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101544</td> 
+    <td>Mr. S.S Tours </td>
+    <td>info@saptasagara.com</td>
+    <td>9742342345</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101545</td> 
+    <td>Mr. Nilesh Upadhyay </td>
+    <td>n.upadhyay@mytravellites.com</td>
+    <td>9167525123</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101546</td> 
+    <td>Mr. Kapil   </td>
+    <td></td>
+    <td>9999111752</td> 
+    <td>Azerbaijan</td>
+    <td>01/01/2026</td>
+    <td>03/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101547</td> 
+    <td>Mr. Kapil   </td>
+    <td></td>
+    <td>9999111752</td> 
+    <td>Singapore</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td></td> 
+    <td>3</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101548</td> 
+    <td>Mr. imran </td>
+    <td>mohd.m.imran@gmail.com</td>
+    <td>9654907178</td> 
+    <td>Manali</td>
+    <td>17/12/2025</td>
+    <td>19/12/2025</td>
+    <td>January</td>
+    <td></td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101549</td> 
+    <td>Ms. Kalaiselvi </td>
+    <td>kalaiselvijuzgoholidays@gmail.com</td>
+    <td>7418600991</td> 
+    <td>Europe</td>
+    <td>04/02/2026</td>
+    <td>14/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101550</td> 
+    <td>Mr. avanish    </td>
+    <td>avanishsingh059@gmail.com</td>
+    <td>9555668015</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>01/01/2026</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101551</td> 
+    <td>Mr. Jatin Kaba </td>
+    <td>jatin@jupiterserv.com</td>
+    <td>9819350543</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101552</td> 
+    <td> Mohd Dillnawaj </td>
+    <td>mohddillnawaj@gmail.com</td>
+    <td>8505876429</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>10/01/2026</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#ff7b00;color:#fff;">Follow Up</span></td>  
+    <td>Mitul Patel</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101553</td> 
+    <td>Mr. Avainash </td>
+    <td>knighthikers.india@gmail.com</td>
+    <td>7040530944</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mitul Patel</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101554</td> 
+    <td>Mr. Ravindra </td>
+    <td>ravindra_akshar99@rediffmail.com</td>
+    <td>9561754798</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101555</td> 
+    <td>Mr. govind </td>
+    <td></td>
+    <td>8700600310</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>04/01/2026</td>
+    <td>January</td>
+    <td></td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101556</td> 
+    <td>Mr. Joydeep Saha </td>
+    <td></td>
+    <td>9830726253</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>04/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101557</td> 
+    <td>Mr. Rohit Sharma Test </td>
+    <td></td>
+    <td>9625453619</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>04/01/2026</td>
+    <td>January</td>
+    <td></td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#af4b9e;color:#fff;">Proposal Con..</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101558</td> 
+    <td>Mr. Kapil   </td>
+    <td></td>
+    <td>9999111752</td> 
+    <td>Chennai</td>
+    <td>22/12/2025</td>
+    <td>24/12/2025</td>
+    <td>January</td>
+    <td></td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101559</td> 
+    <td>Mr. Saurav Agarwal  </td>
+    <td>diamondkolkata@gmail.com</td>
+    <td>9830479038</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101560</td> 
+    <td>Mr. najam naqvi  </td>
+    <td>najamnaqvi014@gmail.com</td>
+    <td>9058040060</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>03/01/2026</td>
+    <td>January</td>
+    <td>Hotel only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101561</td> 
+    <td>Mr. Vaishakh </td>
+    <td>converge9group@gmail.com</td>
+    <td>7994321098</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>06/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101562</td> 
+    <td>Mr. Anil thanki </td>
+    <td>travvelatourism@gmail.com</td>
+    <td>8469395295</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101563</td> 
+    <td>Mr. Tamheed Nazir </td>
+    <td>Yatriwala.com@gmail.com</td>
+    <td>6005053569</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101566</td> 
+    <td>Mr. Ratan Kumar Srivastava         </td>
+    <td>ratan@travbizz.com</td>
+    <td>9521508406</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101567</td> 
+    <td>Mr. Dhananjay Kumar </td>
+    <td>mail@inditour.com</td>
+    <td>9818149021</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>10/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101568</td> 
+    <td>Mr. Prince </td>
+    <td>princesolanki5502@gmail.com</td>
+    <td>9172888998</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101569</td> 
+    <td>Mr. Pratap </td>
+    <td>skerryandaman@gmail.com</td>
+    <td>9531923042</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101570</td> 
+    <td>Mr. Saif Khan </td>
+    <td>travelwithkhan@gmail.com</td>
+    <td>8879255085</td> 
+    <td>Kashmir</td>
+    <td>11/01/2026</td>
+    <td>15/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101571</td> 
+    <td>Mr. Saif Khan </td>
+    <td>travelwithkhan@gmail.com</td>
+    <td>8879255085</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>01/01/2026</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101572</td> 
+    <td>Mr. Emagine </td>
+    <td>info.emagineholidays@gmail.com</td>
+    <td>9021334407</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101573</td> 
+    <td>Mr. Arun </td>
+    <td>likehearts@gmail.com</td>
+    <td>9710420255</td> 
+    <td>Kashmir</td>
+    <td>05/01/2026</td>
+    <td>10/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101574</td> 
+    <td>Mr. Saurav Agarwal  </td>
+    <td>diamondkolkata@gmail.com</td>
+    <td>9830479038</td> 
+    <td>Kashmir</td>
+    <td>25/01/2026</td>
+    <td>30/01/2026</td>
+    <td>October</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Hitesh raykesh</td> 
+    <td>Online</td>  
+  </tr>
+  <tr>
+    <td>101575</td> 
+    <td>Mr. szdxfcgvhbjn </td>
+    <td>sdfchjk</td>
+    <td>0099999998</td> 
+    <td>Sikkim</td>
+    <td>10/02/2026</td>
+    <td>15/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Mounika varma</td> 
+    <td>Facebook</td>  
+  </tr>
+  <tr>
+    <td>101576</td> 
+    <td>Mr. Sharid </td>
+    <td>apnaflight@gmail.com</td>
+    <td>9955071616</td> 
+    <td>Bagdogra</td>
+    <td>24/12/2025</td>
+    <td>24/12/2025</td>
+    <td>December</td>
+    <td>Flight only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td> </td> 
+    <td>Telephone</td>  
+  </tr>
+  <tr>
+    <td>101577</td> 
+    <td>Mr. ON TOURISM  </td>
+    <td>ontaxiservice@gmail.com</td>
+    <td>8001000199</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101578</td> 
+    <td>Mr. Upender </td>
+    <td></td>
+    <td>9805598988</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>2</td> 
+    <td>2</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101579</td> 
+    <td>Mr. Aqueel Travizz </td>
+    <td>aqueel@travbizz.com</td>
+    <td>9089078908</td> 
+    <td>Dubai</td>
+    <td>26/12/2025</td>
+    <td>30/12/2025</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101580</td> 
+    <td>Mr. Ajit ji </td>
+    <td>vajitbote@gmail.com</td>
+    <td>9594024021</td> 
+    <td>Ujjain</td>
+    <td>17/01/2026</td>
+    <td>22/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>11</td> 
+    <td>3</td> 
+    <td>1</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Instagram</td>  
+  </tr>
+  <tr>
+    <td>101584</td> 
+    <td>Mr. avanish    </td>
+    <td>avanishsingh059@gmail.com</td>
+    <td>9555668015</td> 
+    <td>Dubai</td>
+    <td>28/12/2025</td>
+    <td>30/12/2025</td>
+    <td>January</td>
+    <td>Flight only</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Mitul Patel</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101585</td> 
+    <td>Mr. Rishabh </td>
+    <td>rishabhkarnawat@outlook.com</td>
+    <td>9116067950</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101586</td> 
+    <td>Mr. Rohit Ji </td>
+    <td>khatwal.rohit@gmail.com</td>
+    <td>9953682237</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101587</td> 
+    <td>Mr. Snehal </td>
+    <td>snehal.bigwaytravel@gmail.com</td>
+    <td>9106843678</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Avanish singh</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101588</td> 
+    <td>Mr. Antaryami ji </td>
+    <td>hrtvacations@gmail.com</td>
+    <td>8093012304</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101589</td> 
+    <td>Mr. Murli Sir </td>
+    <td>silkroad_india@hotmail.com</td>
+    <td> 986870817</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>5</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101590</td> 
+    <td>Mr. RAJ KISHORE SAHOO </td>
+    <td>raj@hrtvacations.com</td>
+    <td>8093012303</td> 
+    <td>Kashmir</td>
+    <td>02/01/2026</td>
+    <td>03/01/2026</td>
+    <td>January</td>
+    <td></td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Liju NMS</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101591</td> 
+    <td>Mr. Danish </td>
+    <td>mddanish2320@gmail.com</td>
+    <td>9163567970</td> 
+    <td>Kolkata</td>
+    <td>29/12/2025</td>
+    <td>31/12/2025</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>2</td> 
+    <td>3</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Mitul Patel</td> 
+    <td>Agent</td>  
+  </tr>
+  <tr>
+    <td>101592</td> 
+    <td>Mr. Siddharth Pandya </td>
+    <td>admin@marvellatravels.in</td>
+    <td>8141412146</td> 
+    <td>Kutch</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>24</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101593</td> 
+    <td>Mr. najam naqvi  </td>
+    <td>najamnaqvi014@gmail.com</td>
+    <td>9058040060</td> 
+    <td>Kutch</td>
+    <td>29/12/2025</td>
+    <td>29/12/2025</td>
+    <td>December</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#c65353;color:#fff;">Cancel</span></td>  
+    <td>Nalin Kumar</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101594</td> 
+    <td>Mr. Siddharth Pandya </td>
+    <td>admin@marvellatravels.in</td>
+    <td>8141412146</td> 
+    <td>Surat</td>
+    <td>05/01/2026</td>
+    <td>05/01/2026</td>
+    <td>February</td>
+    <td></td> 
+    <td>24</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101595</td> 
+    <td>Mr. Saif Khan </td>
+    <td>travelwithkhan@gmail.com</td>
+    <td>8879255085</td> 
+    <td>Kashmir</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101596</td> 
+    <td>Mr. Mayuri </td>
+    <td>mayuri@pacetravels.in</td>
+    <td>7795052383</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101597</td> 
+    <td>Mr. Shreya maam </td>
+    <td>shreyadhulia@gmail.com</td>
+    <td>9904854074</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>05/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Avanish singh</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101598</td> 
+    <td>Mr. Rohit Ji </td>
+    <td>khatwal.rohit@gmail.com</td>
+    <td>9953682237</td> 
+    <td>Kashmir</td>
+    <td>11/01/2026</td>
+    <td>15/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101599</td> 
+    <td>Mr. Lokesh Pahuja </td>
+    <td>ops07.wandersoul@gmail.com</td>
+    <td>9222995995</td> 
+    <td>Dubai</td>
+    <td>10/12/2025</td>
+    <td>15/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101600</td> 
+    <td>Mr. Rahul Dhulia </td>
+    <td>rahuldhulia@gmail.com</td>
+    <td>9924943430</td> 
+    <td>Dubai</td>
+    <td>01/01/2026</td>
+    <td>03/01/2026</td>
+    <td>January</td>
+    <td></td> 
+    <td>2</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101603</td> 
+    <td>Mr. Christinal maam </td>
+    <td>contact@graceongo.com</td>
+    <td>7358088314</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101605</td> 
+    <td>Mr. Mahesh ji </td>
+    <td>ops@meitrips.com</td>
+    <td>9020323932</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101606</td> 
+    <td>Mr. Rayan </td>
+    <td>vanaviltours@gmail.com</td>
+    <td>9566151235</td> 
+    <td>Vietnam</td>
+    <td>11/01/2026</td>
+    <td>20/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101607</td> 
+    <td>Mr. Mahesh ji </td>
+    <td>ops@meitrips.com</td>
+    <td>9020323932</td> 
+    <td>KUALA LUMPUR</td>
+    <td>24/02/2026</td>
+    <td>27/02/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Agent</td>  
+  </tr>
+  <tr>
+    <td>101610</td> 
+    <td>Mr. Jaydeo </td>
+    <td>thedetourindia@gmail.com</td>
+    <td>9594342067</td> 
+    <td>Kashmir</td>
+    <td>21/01/2026</td>
+    <td>22/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>WhatsApp</td>  
+  </tr>
+  <tr>
+    <td>101611</td> 
+    <td>Mr. Mukes Challani </td>
+    <td>darshantraavels@gmail.com</td>
+    <td>9300390030</td> 
+    <td>Dubai</td>
+    <td>15/01/2026</td>
+    <td>20/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101613</td> 
+    <td>Mr. Nishrag Ji </td>
+    <td>nisarg@hitechholidayolanners.com</td>
+    <td>8980980998</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#ff7b00;color:#fff;">Follow Up</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101615</td> 
+    <td>Mr. Rohit Ji </td>
+    <td>khatwal.rohit@gmail.com</td>
+    <td>9953682237</td> 
+    <td>Gujrat</td>
+    <td>11/01/2026</td>
+    <td>17/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Hitesh raykesh</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101616</td> 
+    <td>Mr. Rahul </td>
+    <td>admin@rahul.com</td>
+    <td>9854454544</td> 
+    <td>Shimla</td>
+    <td>05/01/2026</td>
+    <td>07/01/2026</td>
+    <td>January</td>
+    <td>Activities only</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101617</td> 
+    <td>Mr. Ram </td>
+    <td>ramkumar2857@gmail.com</td>
+    <td>7503650078</td> 
+    <td>Kashmir</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>6</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Website</td>  
+  </tr>
+  <tr>
+    <td>101618</td> 
+    <td>Mr. Pawan Ji </td>
+    <td>pawan.ku6@gmail.com</td>
+    <td>9313597741</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101619</td> 
+    <td>Mr. Pradeep Ji </td>
+    <td>info@mysterymiles.in</td>
+    <td>9996009607</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>4</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101621</td> 
+    <td>Mr. Sharath Ji </td>
+    <td>contactus@bestdestiny.in</td>
+    <td>9989868052</td> 
+    <td>Thailand</td>
+    <td>22/01/2026</td>
+    <td>24/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>20</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Imran</td> 
+    <td>Online</td>  
+  </tr>
+  <tr>
+    <td>101622</td> 
+    <td>Mr. Rajmohan ji </td>
+    <td>prayanamh@gmail.com</td>
+    <td>9895314494</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Agent</td>  
+  </tr>
+  <tr>
+    <td>101623</td> 
+    <td>Mr. Velvigo </td>
+    <td>velvigoholidays02@gmail.com</td>
+    <td>9650741986</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101624</td> 
+    <td>Mr. Ashutosh ji </td>
+    <td>ashupagare27@gmail.com</td>
+    <td>9769550534</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#e49e5e;color:#fff;">Proposal Sent</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101625</td> 
+    <td>Mr. Christinal maam </td>
+    <td>contact@graceongo.com</td>
+    <td>7358088314</td> 
+    <td>Dubai</td>
+    <td>01/02/2026</td>
+    <td>05/02/2026</td>
+    <td>February</td>
+    <td>Full package</td> 
+    <td>2</td> 
+    <td>2</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Mohd Dillnawaj </td> 
+    <td>Walk-In</td>  
+  </tr>
+  <tr>
+    <td>101626</td> 
+    <td>Mr. dgfdsfg </td>
+    <td>test@yopmail.com</td>
+    <td>9980559898</td> 
+    <td>Shimla</td>
+    <td>07/01/2026</td>
+    <td>09/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Advertisment</td>  
+  </tr>
+  <tr>
+    <td>101627</td> 
+    <td>Mr. Rayan </td>
+    <td>vanaviltours@gmail.com</td>
+    <td>9566151235</td> 
+    <td>Kerala</td>
+    <td>24/01/2026</td>
+    <td>26/01/2026</td>
+    <td>January</td>
+    <td>Full package</td> 
+    <td>24</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#6b94d6;color:#fff;">New </span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+  <tr>
+    <td>101628</td> 
+    <td>Mr. Rahul </td>
+    <td>info@trekchalo.com</td>
+    <td>9911449890</td> 
+    <td>Dubai</td>
+    <td>01/03/2026</td>
+    <td>05/03/2026</td>
+    <td>March</td>
+    <td>Full package</td> 
+    <td>1</td> 
+    <td>0</td> 
+    <td>0</td> 
+    <td><span class="badge" style="background-color:#46cd93;color:#fff;">Confirmed</span></td>  
+    <td>Travbizz Travel IT Solutions</td> 
+    <td>Referral</td>  
+  </tr>
+</table>
