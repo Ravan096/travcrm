@@ -1,0 +1,347 @@
+<div class="bg-white p-4 rounded-lg shadow">
+
+    <div class="flex flex-wrap items-center justify-between gap-4">
+        <h2 class="text-xl font-semibold">Queries</h2>
+
+        <div class="flex gap-2 flex-wrap">
+            <button (click)="openAddQuery()" class="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer">
+                + Add New
+            </button>
+
+            <button class="border border-blue-600 text-blue-600 px-4 py-2 rounded-md cursor-pointer">
+                Options ⌄
+            </button>
+
+            <button class="border border-blue-600 text-blue-600 px-4 py-2 rounded-md cursor-pointer">
+                Load Leads
+            </button>
+
+            <button class="bg-teal-600 text-white px-4 py-2 rounded-md cursor-pointer" (click)="toggleFilter()">
+                🔍 Filter
+            </button>
+        </div>
+    </div>
+
+    <div *ngIf="showFilter" class="mt-4 bg-slate-50 p-4 rounded-lg flex flex-wrap gap-3">
+        <input type="date" class="border px-3 py-2 rounded-md" />
+        <input type="date" class="border px-3 py-2 rounded-md" />
+
+        <input type="text" placeholder="Search by ID, name, en" class="border px-3 py-2 rounded-md w-64" />
+
+        <select class="border px-3 py-2 rounded-md">
+            <option>All Users</option>
+        </select>
+
+        <select class="border px-3 py-2 rounded-md">
+            <option>All Source</option>
+        </select>
+
+        <select class="border px-3 py-2 rounded-md">
+            <option>All</option>
+        </select>
+
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-md">
+            🔍 Search
+        </button>
+
+        <button class="border px-4 py-2 rounded-md">
+            All
+        </button>
+    </div>
+</div>
+<div class="flex gap-3 my-4 overflow-x-auto whitespace-nowrap pb-2 items-center justify-around">
+
+    <div class="min-w-[140px] bg-[#000000] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">1324</div>
+        <div class="text-sm">TOTAL</div>
+    </div>
+
+    <div class="min-w-[140px] bg-[#6b94d6] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">475</div>
+        <div class="text-sm">NEW</div>
+    </div>
+
+    <div class="min-w-[140px] bg-[#e49e5e] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">59</div>
+        <div class="text-sm">PROPOSAT SENT</div>
+    </div>
+
+    <div class="min-w-[140px] bg-[#465e86] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">15</div>
+        <div class="text-sm">NO CONNECT</div>
+    </div>
+
+    <div class="min-w-[140px] bg-[#e45555] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">27</div>
+        <div class="text-sm">HOT LEAD</div>
+    </div>
+    <div class="min-w-[140px] bg-[#af4b9e] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">26</div>
+        <div class="text-sm">PROPOSAL CON.</div>
+    </div>
+    <div class="min-w-[140px] bg-[#c65353] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">26</div>
+        <div class="text-sm">CANCEL</div>
+    </div>
+    <div class="min-w-[140px] bg-[#ff7b00] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">23</div>
+        <div class="text-sm">FOLLOW UP </div>
+    </div>
+    <div class="min-w-[140px] bg-[#46cd93] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">650</div>
+        <div class="text-sm">CONFIRMED</div>
+    </div>
+    <div class="min-w-[140px] bg-[#000000] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">0</div>
+        <div class="text-sm">POSTPONED</div>
+    </div>
+    <div class="min-w-[140px] bg-[#9f3847] text-white p-3 rounded-lg text-center">
+        <div class="text-2xl font-bold">10</div>
+        <div class="text-sm">INVALID</div>
+    </div>
+
+
+</div>
+
+
+<div class="bg-white rounded-lg shadow overflow-x-auto">
+    <table class="min-w-full text-sm">
+        <thead class="bg-slate-100">
+            <tr>
+                <th class="p-3 text-left">ID</th>
+                <th class="p-3 text-left">Customer</th>
+                <th class="p-3 text-left">Destination</th>
+                <th class="p-3 text-left">Tour Date</th>
+                <th class="p-3 text-left">Package</th>
+                <th class="p-3 text-left">Assign</th>
+                <th class="p-3 text-left">Status</th>
+                <th class="p-3 text-left">Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let q of queries" class="border-b hover:bg-slate-50">
+                <td class="p-3 text-blue-600 font-semibold">
+                    <a class="text-blue-600 cursor-pointer hover:underline" (click)="openQuery(q.id)">
+                        {{ q.id }}
+                    </a>
+                    <!-- {{ q.id }} -->
+                </td>
+                <td class="p-3">{{ q.customer }}</td>
+
+                <td class="p-3">
+                    <span class="border border-blue-500 text-blue-500 px-2 py-1 rounded">
+                        {{ q.destination }}
+                    </span>
+                </td>
+
+                <td class="p-3">{{ q.date }}</td>
+
+                <td class="p-3 text-green-600 font-semibold">
+                    {{ q.package }}
+                </td>
+
+                <td class="p-3">
+                    <select class="border px-2 py-1 rounded-md">
+                        <option>Assign to me (911)</option>
+                    </select>
+                </td>
+
+                <td class="p-3">
+                    <span class="px-3 py-1 rounded-sm text-xs font-semibold whitespace-nowrap"
+                        [ngClass]="getStatusClass(q.status)">
+                        {{ q.status }}
+                    </span>
+                </td>
+
+
+                <td class="p-3 flex gap-2">
+                    ⭐ 👁️ ✉️ ✏️
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="flex justify-between items-center mt-4 bg-slate-50 p-3 rounded-lg">
+    <div>
+        Total Records: <strong>1324</strong>
+    </div>
+
+    <div class="flex gap-2">
+        <button class="text-gray-400">Previous</button>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>...</button>
+        <button>52</button>
+        <button>53</button>
+        <button>Next</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- MODAL -->
+<div *ngIf="showAddQuery" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+
+    <div class="bg-white w-full max-w-4xl rounded-xl shadow-xl p-6 relative animate-fadeIn">
+
+        <!-- Header -->
+        <div class="flex justify-between items-center border-b pb-3 mb-5">
+            <h2 class="text-lg font-semibold tracking-wide">ADD QUERY</h2>
+            <button (click)="closeAddQuery()" class="text-gray-400 hover:text-black text-xl cursor-pointer">
+                ✕
+            </button>
+        </div>
+
+        <!-- Form -->
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+
+            <!-- TYPE -->
+            <div>
+                <label class="label">TYPE</label>
+                <select class="input">
+                    <option>Client</option>
+                </select>
+            </div>
+
+            <!-- MOBILE -->
+            <div>
+                <label class="label">MOBILE *</label>
+                <input type="text" class="input" placeholder="Phone / Mobile" />
+            </div>
+
+            <!-- EMAIL -->
+            <div>
+                <label class="label">EMAIL</label>
+                <input type="email" class="input" placeholder="Email" />
+            </div>
+
+            <!-- CLIENT NAME -->
+            <div>
+                <label class="label">CLIENT NAME *</label>
+                <div class="flex gap-2">
+                    <select class="input w-24">
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                    </select>
+                    <input type="text" class="input flex-1" placeholder="Name" />
+                </div>
+            </div>
+
+            <!-- DESTINATION -->
+            <div>
+                <label class="label">DESTINATION *</label>
+                <input type="text" class="input" />
+            </div>
+
+            <!-- TRAVEL MONTH -->
+            <div>
+                <label class="label">TRAVEL MONTH</label>
+                <select class="input">
+                    <option>January</option>
+                </select>
+            </div>
+
+            <!-- FROM DATE -->
+            <div>
+                <label class="label">FROM DATE *</label>
+                <input type="date" class="input" />
+            </div>
+
+            <!-- TO DATE -->
+            <div>
+                <label class="label">TO DATE *</label>
+                <input type="date" class="input" />
+            </div>
+
+            <!-- ADULT -->
+            <div>
+                <label class="label">ADULT *</label>
+                <select class="input">
+                    <option>1</option>
+                </select>
+            </div>
+
+            <!-- CHILD -->
+            <div>
+                <label class="label">CHILD</label>
+                <select class="input">
+                    <option>0</option>
+                </select>
+            </div>
+
+            <!-- INFANT -->
+            <div>
+                <label class="label">INFANT</label>
+                <select class="input">
+                    <option>0</option>
+                </select>
+            </div>
+
+            <!-- LEAD SOURCE -->
+            <div>
+                <label class="label">LEAD SOURCE *</label>
+                <select class="input">
+                    <option>Advertisement</option>
+                    <option>Agent</option>
+                    <option>Walk-In</option>
+                    <option>Instagram</option>
+                </select>
+            </div>
+
+            <!-- PRIORITY -->
+            <div>
+                <label class="label">PRIORITY *</label>
+                <select class="input">
+                    <option>General Query</option>
+                </select>
+            </div>
+
+            <!-- ASSIGN TO -->
+            <div>
+                <label class="label">ASSIGN TO *</label>
+                <select class="input">
+                    <option>Assign to me</option>
+                </select>
+            </div>
+
+            <!-- SERVICE -->
+            <div class="md:col-span-2">
+                <label class="label">SERVICE</label>
+                <select class="input">
+                    <option>Select Service</option>
+                    <option>Activities only</option>
+                    <option>Flight only</option>
+                    <option>Full package</option>
+                    <option>Hotel + Flight</option>
+                    <option>Visa only</option>
+                </select>
+            </div>
+
+            <!-- REMARK -->
+            <div class="md:col-span-2">
+                <label class="label">REMARK</label>
+                <textarea rows="3" class="input"></textarea>
+            </div>
+
+        </form>
+
+        <!-- Footer -->
+        <div class="flex justify-end gap-3 mt-6 border-t pt-4">
+            <button (click)="closeAddQuery()" class="px-4 py-2 text-gray-600 hover:text-black cursor-pointer">
+                Cancel
+            </button>
+
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md shadow">
+                Save
+            </button>
+        </div>
+
+    </div>
+</div>

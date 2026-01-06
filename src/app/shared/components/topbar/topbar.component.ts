@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './topbar.component.css'
 })
 export class TopbarComponent {
+  isProfileOpen = false;
+
+  toggleProfile() {
+    this.isProfileOpen = !this.isProfileOpen;
+  }
+
+  closeProfile() {
+    this.isProfileOpen = false;
+  }
 
 }

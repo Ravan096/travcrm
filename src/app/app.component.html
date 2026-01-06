@@ -1,9 +1,12 @@
 <div class="flex h-screen">
-    <app-sidebar></app-sidebar>
-  
-    <div class="flex-1 flex flex-col">
-      <app-topbar></app-topbar>
+  <app-sidebar></app-sidebar>
+
+  <div class="flex-1 flex flex-col">
+    <app-topbar></app-topbar>
+
+    <!-- ROUTED CONTENT -->
+    <div class="flex-1 overflow-auto">
       <router-outlet></router-outlet>
     </div>
   </div>
-  
+</div>
