@@ -1,18 +1,1 @@
-<div class="flex h-screen">
-
-  <!-- SIDEBAR -->
-  <app-sidebar [isOpen]="isSidebarOpen"></app-sidebar>
-
-  <!-- MAIN -->
-  <div class="flex-1 flex flex-col transition-all duration-300">
-
-    <!-- TOPBAR -->
-    <app-topbar (toggleSidebar)="toggleSidebar()"></app-topbar>
-
-    <!-- CONTENT -->
-    <div class="flex-1 overflow-auto">
-      <router-outlet></router-outlet>
-    </div>
-
-  </div>
-</div>
+<router-outlet></router-outlet>

@@ -7,9 +7,7 @@
 
 @layer components {
   .input {
-    @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm
-           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
-           bg-white;
+    @apply w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white;
   }
 
   .label {
@@ -19,10 +17,28 @@
 
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.97); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .animate-fadeIn {
   animation: fadeIn 0.2s ease-out;
+}
+
+.menu-item {
+  @apply flex items-center gap-3 h-10 px-3 rounded-lg hover:bg-blue-100 transition cursor-pointer text-gray-700;
+}
+
+
+
+
+.menu-item.active {
+  @apply bg-orange-400 text-white;
 }

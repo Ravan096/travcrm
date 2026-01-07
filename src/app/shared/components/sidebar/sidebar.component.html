@@ -1,89 +1,65 @@
-<aside
-  class="bg-white flex flex-col py-4 transition-all duration-300
-         overflow-hidden"
-  [class.w-16]="!isOpen"
-  [class.w-64]="isOpen"
->
+<!-- Mobile backdrop -->
+<div *ngIf="isMobileOpen" class="fixed inset-0 bg-black/40 z-40 lg:hidden" (click)="closeMobile()">
+</div>
 
-  <!-- Logo -->
-  <div class="flex items-center px-4 mb-6" [ngClass]="isOpen ? 'justify-start' : 'justify-center'">
-    <span class="bg-blue-200 p-2 text-lg">
-      🅰️
-    </span>
+<!-- Sidebar -->
+<aside class="fixed lg:static top-0 left-0 h-full bg-white z-50
+         transition-all duration-300 ease-in-out" [ngClass]="{
+    'w-72 translate-x-0': isMobileOpen,
+    '-translate-x-full w-64': !isMobileOpen,
+    'lg:translate-x-0': true,
+    'lg:w-16': isCollapsed,
+    'lg:w-64': !isCollapsed
+  }">
 
-    <!-- Logo Text -->
-    <span *ngIf="isOpen"
-          class="ml-3 font-bold text-gray-700 text-lg">
-      Travbizz
-    </span>
+  <!-- Logo + Close -->
+  <div class="flex items-center justify-between px-4 h-16">
+    <div class="flex items-center">
+      <span class="bg-blue-200 p-2 rounded text-lg">🅰️</span>
+
+      <!-- Logo text desktop expanded -->
+      <span *ngIf="!isCollapsed" class="ml-3 font-bold text-gray-700 text-lg hidden lg:block">
+        Travbizz
+      </span>
+
+      <!-- Logo text mobile -->
+      <span class="ml-3 font-bold text-gray-700 text-lg lg:hidden">
+        Travbizz
+      </span>
+    </div>
+
+    <!-- Mobile close -->
+    <button class="text-xl lg:hidden" (click)="closeMobile()">
+      ✕
+    </button>
   </div>
 
   <!-- Menu -->
-  <nav class="flex flex-col gap-2 px-2">
+  <nav class="flex flex-col gap-1 px-2 mt-2">
 
-    <!-- Dashboard -->
-    <a
-      routerLink="/"
-      routerLinkActive="bg-blue-600 text-white"
-      class="flex items-center gap-3 h-10 px-3 rounded-lg
-             hover:bg-blue-100 transition"
-    >
-      <span class="text-xl">🏠</span>
-      <span *ngIf="isOpen" class="text-sm font-medium">
-        Dashboard
-      </span>
+    <a routerLink="/" routerLinkActive="bg-blue-600 text-white" class="menu-item" (click)="onNavClick()">
+      🏠
+      <span *ngIf="!isCollapsed || isMobileOpen">Dashboard</span>
     </a>
 
-    <!-- Queries -->
-    <a
-      routerLink="/queries"
-      routerLinkActive="bg-blue-600 text-white"
-      class="flex items-center gap-3 h-10 px-3 rounded-lg
-             hover:bg-blue-100 transition"
-    >
-      <span class="text-xl">📄</span>
-      <span *ngIf="isOpen" class="text-sm font-medium">
-        Queries
-      </span>
+    <a routerLink="/queries" routerLinkActive="bg-blue-600 text-white" class="menu-item" (click)="onNavClick()">
+      📄
+      <span *ngIf="!isCollapsed || isMobileOpen">Queries</span>
     </a>
 
-    <!-- Packages -->
-    <a
-      routerLink="/packages"
-      routerLinkActive="bg-blue-600 text-white"
-      class="flex items-center gap-3 h-10 px-3 rounded-lg
-             hover:bg-blue-100 transition"
-    >
-      <span class="text-xl">📦</span>
-      <span *ngIf="isOpen" class="text-sm font-medium">
-        Packages
-      </span>
+    <a routerLink="/packages" routerLinkActive="bg-blue-600 text-white" class="menu-item" (click)="onNavClick()">
+      📦
+      <span *ngIf="!isCollapsed || isMobileOpen">Packages</span>
     </a>
 
-    <!-- Email -->
-    <a
-      routerLink="/messages"
-      routerLinkActive="bg-blue-600 text-white"
-      class="flex items-center gap-3 h-10 px-3 rounded-lg
-             hover:bg-blue-100 transition"
-    >
-      <span class="text-xl">📧</span>
-      <span *ngIf="isOpen" class="text-sm font-medium">
-        Messages
-      </span>
+    <a routerLink="/messages" routerLinkActive="bg-blue-600 text-white" class="menu-item">
+      📧
+      <span *ngIf="!isCollapsed || isMobileOpen">Messages</span>
     </a>
 
-    <!-- Favorites -->
-    <a
-      routerLink="/favorites"
-      routerLinkActive="bg-blue-600 text-white"
-      class="flex items-center gap-3 h-10 px-3 rounded-lg
-             hover:bg-blue-100 transition"
-    >
-      <span class="text-xl">⭐</span>
-      <span *ngIf="isOpen" class="text-sm font-medium">
-        Favorites
-      </span>
+    <a routerLink="/favorites" routerLinkActive="bg-blue-600 text-white" class="menu-item">
+      ⭐
+      <span *ngIf="!isCollapsed || isMobileOpen">Favorites</span>
     </a>
 
   </nav>
