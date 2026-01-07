@@ -1,43 +1,90 @@
-<aside class="w-16 bg-white border-r flex flex-col items-center py-4 gap-6">
+<aside
+  class="bg-white flex flex-col py-4 transition-all duration-300
+         overflow-hidden"
+  [class.w-16]="!isOpen"
+  [class.w-64]="isOpen"
+>
 
   <!-- Logo -->
-  <div class="w-10 h-10 flex items-center justify-center">
-    <img src="../../../../assets/logo.jpg" alt="logo" class="w-8 h-8" />
+  <div class="flex items-center px-4 mb-6" [ngClass]="isOpen ? 'justify-start' : 'justify-center'">
+    <span class="bg-blue-200 p-2 text-lg">
+      🅰️
+    </span>
+
+    <!-- Logo Text -->
+    <span *ngIf="isOpen"
+          class="ml-3 font-bold text-gray-700 text-lg">
+      Travbizz
+    </span>
   </div>
 
   <!-- Menu -->
-  <nav class="flex flex-col gap-5 mt-6">
+  <nav class="flex flex-col gap-2 px-2">
 
-    <!-- Active -->
-    <div class="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center cursor-pointer">
-      <!-- <span class="text-white">🏠</span> -->
-      <a routerLink="/" routerLinkActive="bg-blue-500 text-white" class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center 
-         hover:bg-blue-100 transition">
-        🏠
-      </a>
-    </div>
+    <!-- Dashboard -->
+    <a
+      routerLink="/"
+      routerLinkActive="bg-blue-600 text-white"
+      class="flex items-center gap-3 h-10 px-3 rounded-lg
+             hover:bg-blue-100 transition"
+    >
+      <span class="text-xl">🏠</span>
+      <span *ngIf="isOpen" class="text-sm font-medium">
+        Dashboard
+      </span>
+    </a>
 
-    <!-- Icons -->
-    <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center hover:bg-blue-100 cursor-pointer">
-      <a routerLink="/queries" routerLinkActive="bg-blue-500 text-white" class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center 
-         hover:bg-blue-100 transition">
-        📄
-      </a>
-    </div>
+    <!-- Queries -->
+    <a
+      routerLink="/queries"
+      routerLinkActive="bg-blue-600 text-white"
+      class="flex items-center gap-3 h-10 px-3 rounded-lg
+             hover:bg-blue-100 transition"
+    >
+      <span class="text-xl">📄</span>
+      <span *ngIf="isOpen" class="text-sm font-medium">
+        Queries
+      </span>
+    </a>
 
-    <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center hover:bg-blue-100 cursor-pointer">
-      <a routerLink="/queries" routerLinkActive="bg-blue-500 text-white" class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center 
-         hover:bg-blue-100 transition">
-        📦
-      </a>
-    </div>
+    <!-- Packages -->
+    <a
+      routerLink="/packages"
+      routerLinkActive="bg-blue-600 text-white"
+      class="flex items-center gap-3 h-10 px-3 rounded-lg
+             hover:bg-blue-100 transition"
+    >
+      <span class="text-xl">📦</span>
+      <span *ngIf="isOpen" class="text-sm font-medium">
+        Packages
+      </span>
+    </a>
 
+    <!-- Email -->
+    <a
+      routerLink="/messages"
+      routerLinkActive="bg-blue-600 text-white"
+      class="flex items-center gap-3 h-10 px-3 rounded-lg
+             hover:bg-blue-100 transition"
+    >
+      <span class="text-xl">📧</span>
+      <span *ngIf="isOpen" class="text-sm font-medium">
+        Messages
+      </span>
+    </a>
 
-
-    <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center hover:bg-blue-100 cursor-pointer">📧
-    </div>
-    <div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center hover:bg-blue-100 cursor-pointer">⭐
-    </div>
+    <!-- Favorites -->
+    <a
+      routerLink="/favorites"
+      routerLinkActive="bg-blue-600 text-white"
+      class="flex items-center gap-3 h-10 px-3 rounded-lg
+             hover:bg-blue-100 transition"
+    >
+      <span class="text-xl">⭐</span>
+      <span *ngIf="isOpen" class="text-sm font-medium">
+        Favorites
+      </span>
+    </a>
 
   </nav>
 </aside>

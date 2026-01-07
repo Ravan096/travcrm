@@ -81,6 +81,8 @@ export class DashboardComponent implements AfterViewInit {
       },
       options: {
         cutout: '65%',
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             position: 'bottom',
@@ -135,6 +137,7 @@ export class DashboardComponent implements AfterViewInit {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           x: {
             stacked: true,
@@ -186,6 +189,7 @@ export class DashboardComponent implements AfterViewInit {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             display: false
@@ -248,6 +252,7 @@ export class DashboardComponent implements AfterViewInit {
       options: {
         indexAxis: 'y',
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             position: 'top'
