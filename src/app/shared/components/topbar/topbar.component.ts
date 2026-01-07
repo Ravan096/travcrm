@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { LayoutService } from '../../../core/services/layout.service';
 
 @Component({
   selector: 'app-topbar',
@@ -21,10 +22,16 @@ export class TopbarComponent {
     this.isProfileOpen = false;
   }
 
-  @Output() toggleSidebar = new EventEmitter<void>();
+  constructor(public layout: LayoutService) { }
 
-  onToggleSidebar() {
-    this.toggleSidebar.emit();
+  toggleSidebar() {
+    if (window.innerWidth < 1024) {
+      // mobile
+      this.layout.openMobile();
+    } else {
+      // desktop
+      this.layout.toggleDesktop();
+    }
   }
 
 }
