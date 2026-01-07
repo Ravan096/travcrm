@@ -5,10 +5,15 @@ import { TopbarComponent } from './shared/components/topbar/topbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,SidebarComponent,TopbarComponent],
+  imports: [RouterOutlet, SidebarComponent, TopbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'travcrm';
+  isSidebarOpen = true;
+
+  toggleSidebar() {
+    this.isSidebarOpen = !this.isSidebarOpen;
+  }
 }

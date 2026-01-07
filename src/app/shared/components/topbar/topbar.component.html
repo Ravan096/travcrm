@@ -1,12 +1,15 @@
-<header class="h-16 bg-white border-b flex items-center px-6 justify-between">
+<header class="h-16 bg-white flex items-center px-4 md:px-6 justify-between">
 
   <!-- Left -->
-  <div class="flex items-center gap-4 w-1/2">
-    <button class="text-gray-600">
+  <div class="flex items-center gap-4 w-auto md:w-1/2">
+
+    <!-- Hamburger (always visible) -->
+    <button class="text-gray-600 text-xl cursor-pointer p-2 text-lg rounded-lg hover:bg-blue-200 transition" (click)="onToggleSidebar()">
       ☰
     </button>
 
-    <select class="border rounded px-3 py-1 text-sm">
+    <!-- Filter dropdown (HIDE ON MOBILE) -->
+    <select class="hidden md:block border rounded px-3 py-1 text-sm">
       <option>All</option>
       <option>Queries</option>
       <option>Itineries</option>
@@ -15,26 +18,83 @@
       <option>Corporate</option>
     </select>
 
-    <input type="text" placeholder="Search" class="flex-1 border rounded-lg px-4 py-2 text-sm focus:outline-none" />
+    <!-- Search input (HIDE ON MOBILE) -->
+    <input
+      type="text"
+      placeholder="Search"
+      class="hidden md:block flex-1 border rounded-lg px-4 py-2 text-sm focus:outline-none"
+    />
   </div>
 
   <!-- Right -->
-  <div class="flex items-center gap-3">
-    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
+  <div class="flex items-center gap-2 md:gap-3 relative">
+
+    <!-- Hide buttons on very small screens if needed -->
+    <button class="hidden sm:block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
       Flight Search
     </button>
 
-    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
+    <button class="hidden sm:block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
       Hotel Search
     </button>
 
+    <!-- Notification -->
     <div class="w-9 h-9 rounded-full bg-gray-200 flex items-center justify-center">
       🔔
     </div>
 
-    <div (click)="toggleProfile()" class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center justify-center
-             text-sm font-semibold cursor-pointer select-none">
+    <!-- PROFILE TRIGGER -->
+    <div
+      (click)="toggleProfile()"
+      class="w-9 h-9 rounded-full bg-blue-500 text-white flex items-center
+             justify-center text-sm font-semibold cursor-pointer select-none"
+    >
       tb
     </div>
+
+    <!-- DROPDOWN -->
+    <div
+      *ngIf="isProfileOpen"
+      class="absolute right-0 top-12 w-[260px] rounded-2xl border
+             border-gray-200 bg-white p-3 shadow-lg z-50"
+    >
+      <div>
+        <span class="block font-medium text-gray-700 text-sm">
+          Admin Chowdhury
+        </span>
+        <span class="block text-xs text-gray-500">
+          randomuser&#64;pimjo.com
+        </span>
+      </div>
+
+      <ul class="flex flex-col gap-1 pt-4 pb-3 border-b">
+        <li>
+          <a routerLink="/profile" (click)="closeProfile()"
+             class="block px-3 py-2 rounded-lg hover:bg-gray-100">
+            🧑 Edit profile
+          </a>
+        </li>
+
+        <li>
+          <a routerLink="/settings" (click)="closeProfile()"
+             class="block px-3 py-2 rounded-lg hover:bg-gray-100">
+            ⚙️ Account Settings
+          </a>
+        </li>
+
+        <li>
+          <a routerLink="/support" (click)="closeProfile()"
+             class="block px-3 py-2 rounded-lg hover:bg-gray-100">
+            ❓ Support
+          </a>
+        </li>
+      </ul>
+
+      <a routerLink="/login" (click)="closeProfile()"
+         class="block px-3 py-2 mt-3 rounded-lg hover:bg-gray-100">
+        🚪 Sign out
+      </a>
+    </div>
+
   </div>
 </header>
